@@ -78,6 +78,12 @@ def loadFatRendimento():
     cur.execute(sqlLoadFatRendimento)
     conn.commit()
 
+def clearDataBase():
+    conn = db.getConn()
+    cur = db.getCursor(conn)
+    cur.execute(sqlTruncateAll)
+    conn.commit()
+
 def rodarETL():
     # Extracao
     investimentos = getPlanilhaInvestimentos()
@@ -91,6 +97,9 @@ def rodarETL():
     investimento = transformaFI(fi)
     calendario = limpaCalendario(fi=fi, aportes=aportes, rendaFixa=rendaFixa, fii=fii, acoes=acoes)
     rendimento = tranformaRendimento(fi)
+
+    # Clear all
+    clearDataBase()
 
     # Load
     loadDimInvestimento(investimento)
