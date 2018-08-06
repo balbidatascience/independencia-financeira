@@ -3,7 +3,7 @@
 Projeto criado para ser uma solução simples e analítica da minha carteira de investimentos.
 
 
-# Índice/Table of Contents
+## Índice/Table of Contents
 * [Sinopse](#sinopsesynopsis)
 * [Exemplo](#exemploexample) 
 * [Motivação](#motivaçãomotivation)
