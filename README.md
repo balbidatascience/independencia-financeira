@@ -3,10 +3,7 @@
 Projeto criado para ser uma solução simples e analítica da minha carteira de investimentos.
 
 
-# bci-calendar
-BCI Calendar is a Power BI custom visual that allows you to view your aggregated data in a month view. It offers many customization features ranging from basic formatting options like font size, color, etc, to more advanced features such as divergent data color scales, data labels, tooltips, and selection interaction.
-
-# Table of Contents
+# Índice/Table of Contents
 * [Sinopse](#sinopsesynopsis)
 * [Exemplo](#exemploexample) 
 * [Motivação](#motivaçãomotivation)
